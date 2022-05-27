@@ -1,1 +1,28 @@
-@import '../../../ColourTheme/ColourTheme.scss'
+@import '../../../ColourTheme/ColourTheme.scss';
+
+.top10Songs{
+    margin: 5% auto;
+    width: 80%;
+}
+
+.top10SongsTop {
+    display: flex; 
+   
+}
+
+.AddSongsBtn{
+    margin-left: auto;
+}
+
+.top10SongsTable{
+    margin-top: 5%;
+}
+
+.checked{
+    color: orange;
+}
+
+.musicImage{
+    width: 20vh;
+    height: 20vh;
+}
