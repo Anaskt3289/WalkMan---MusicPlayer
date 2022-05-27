@@ -13,6 +13,12 @@
 .AddSongsBtn{
     margin-left: auto;
 }
+.top10SongsTableOuter{
+    overflow-x: scroll;
+}
+.top10SongsTableOuter::-webkit-scrollbar{
+    display: none;
+}
 
 .top10SongsTable{
     margin-top: 5%;
@@ -23,6 +29,19 @@
 }
 
 .musicImage{
-    width: 20vh;
-    height: 20vh;
+    width: 15vh;
+    height: 15vh;
+}
+
+.ArtistSongslistOuter{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.ArtistSongslistOuter::-webkit-scrollbar{
+    display: none;
+}
+
+.ArtistSong{
+    margin-right: 3%;
 }
