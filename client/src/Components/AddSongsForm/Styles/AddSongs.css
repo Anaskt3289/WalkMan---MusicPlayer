@@ -1,0 +1,44 @@
+.AddSongOuter {
+  margin: 5% auto;
+  width: 80%;
+}
+
+.formGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+.formTextBox {
+  width: 30%;
+  margin-left: 5%;
+}
+
+.formLabel {
+  width: 20vh;
+}
+
+.ArtistDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.AddArtistBtn {
+  width: 40%;
+  margin: 0 15%;
+}
+
+.formBtns {
+  margin-left: 5%;
+  width: 10%;
+}
+
+.formBtnsOuter {
+  margin-top: 6%;
+  margin-left: 13%;
+}
+/*# sourceMappingURL=AddSongs.css.map */
