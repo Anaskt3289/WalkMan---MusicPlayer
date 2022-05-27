@@ -1,9 +1,12 @@
-import React from 'react'
-import { Form, Button, Row, Col } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Form, Button} from 'react-bootstrap'
 
+import AddArtistModal from '../AddArtistModal/AddArtistModal' 
 import './Styles/AddSongs.css'
 
 function AddSongs() {
+
+    const [modalShow, setModalShow] = useState(false)
     return (
         <div>
             <div className='AddSongOuter'>
@@ -37,7 +40,7 @@ function AddSongs() {
                                 <option value="Opera" />
                                 <option value="Safari" />
                             </datalist>
-                            <Button className='AddArtistBtn' variant="dark">Add Artist</Button>
+                            <Button className='AddArtistBtn' variant="dark" onClick={()=>setModalShow(true)}>Add Artist</Button>
                         </div>
                     </Form.Group>
                     <div className='formBtnsOuter'>
@@ -46,6 +49,8 @@ function AddSongs() {
                     </div>
                 </Form>
             </div>
+
+            <AddArtistModal show={modalShow} onHide={()=>setModalShow(false)} />
         </div>
     )
 }
