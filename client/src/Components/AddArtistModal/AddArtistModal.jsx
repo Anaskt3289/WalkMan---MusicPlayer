@@ -26,7 +26,7 @@ function AddArtistModal(props) {
                     </Form.Group>
                     <Form.Group className="mb-3 formGroup" controlId="formBasicEmail">
                         <Form.Label className='formLabel'>Date of Birth</Form.Label>
-                        <Form.Control type="text" className='formTextBox' />
+                        <Form.Control type="date" className='formTextBox' />
                     </Form.Group>
                     <Form.Group className="mb-3 formGroup" controlId="formBasicEmail">
                         <Form.Label className='formLabel'>Bio</Form.Label>

@@ -60,7 +60,7 @@ function AddSongs() {
                     </Form.Group>
                     <Form.Group className="mb-3 formGroup" controlId="formBasicEmail">
                         <Form.Label className='formLabel'>Date Realesed</Form.Label>
-                        <Form.Control type="text" name='dateReleased' className='formTextBox' onChange={handleOnchange} />
+                        <Form.Control type="date" name='dateReleased' className='formTextBox' onChange={handleOnchange} />
                     </Form.Group>
                     <Form.Group className="mb-3 formGroup" controlId="formBasicEmail">
                         <Form.Label className='formLabel'>Artwork</Form.Label>
